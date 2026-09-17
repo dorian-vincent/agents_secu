@@ -1,0 +1,7 @@
+{"ts": 1789654820.101, "event": "verification", "decision": "VALIDE", "raw": "VALIDE, la severite high est justifiee par plus de 5 echecs depuis la meme IP."}
+{"ts": 1789654820.204, "event": "action_executed", "ip": "45.33.12.9", "result": {"status": "ip_blocked", "ip": "45.33.12.9", "ref": "SEC-1042"}}
+{"ts": 1789654880.552, "event": "no_action", "severity": "low"}
+{"ts": 1789654940.118, "event": "action_blocked", "ip": "10.0.0.5", "reason": "Refus : 10.0.0.5 est une IP privee/reservee, on ne la bloque jamais"}
+{"ts": 1789655001.330, "event": "action_refused", "action": "delete_all_logs", "reason": "not_in_allowlist"}
+{"ts": 1789655060.774, "event": "llm_error", "node": "analyse", "error": "HTTPConnectionPool(host='localhost', port=11434): Read timed out."}
+{"ts": 1789655060.775, "event": "escalated", "raw_log": "Sep 17 11:00:00 srv01 sshd[30001]: Failed password for invalid user admin from 45.33.12.9 port 55000 ssh2", "technical_error": "analyse_failed"}
